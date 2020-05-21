@@ -1,0 +1,8 @@
+#!/mnt/ccea104a-015b-4ad2-a425-03e86fa48eef/osdg2020/art-club-website/bin/python
+# -*- coding: utf-8 -*-
+import re
+import sys
+from setuptools.command.easy_install import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
