@@ -8,7 +8,7 @@ foo@bar:~$ source bin/activate
 I have kept all the project files in ./src directory <br/>
 project name: webpage <br/>
 app name : webapp <br/>
-vuejs frontend part (webpack-simple template) is kept in ./src/frontend
+
 =======
 # Art Society 
 Art society was started in the summer of 2017 and hosted its first event in the monsoon 2017.
