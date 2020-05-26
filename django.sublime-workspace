@@ -105,17 +105,16 @@
 	"expanded_folders":
 	[
 		"/mnt/ccea104a-015b-4ad2-a425-03e86fa48eef/osdg2020/art-club-website",
-		"/mnt/ccea104a-015b-4ad2-a425-03e86fa48eef/osdg2020/art-club-website/src",
-		"/mnt/ccea104a-015b-4ad2-a425-03e86fa48eef/osdg2020/art-club-website/src/webapp",
-		"/mnt/ccea104a-015b-4ad2-a425-03e86fa48eef/osdg2020/art-club-website/src/webpage"
+		"/mnt/ccea104a-015b-4ad2-a425-03e86fa48eef/osdg2020/art-club-website/src"
 	],
 	"file_history":
 	[
+		"/mnt/ccea104a-015b-4ad2-a425-03e86fa48eef/osdg2020/art-club-website/src/frontend/src/App.vue",
+		"/mnt/ccea104a-015b-4ad2-a425-03e86fa48eef/osdg2020/art-club-website/src/frontend/index.html",
 		"/mnt/ccea104a-015b-4ad2-a425-03e86fa48eef/osdg2020/art-club-website/src/webapp/templates/index.html",
 		"/mnt/ccea104a-015b-4ad2-a425-03e86fa48eef/osdg2020/art-club-website/src/webapp/views.py",
 		"/mnt/ccea104a-015b-4ad2-a425-03e86fa48eef/osdg2020/art-club-website/src/webpage/settings.py",
 		"/mnt/ccea104a-015b-4ad2-a425-03e86fa48eef/osdg2020/art-club-website/src/webpage/urls.py",
-		"/mnt/ccea104a-015b-4ad2-a425-03e86fa48eef/osdg2020/art-club-website/src/frontend/index.html",
 		"/home/cyk/Downloads/vuedjango-master/newapp/settings.py",
 		"/home/cyk/Downloads/vuedjango-master/newapp/urls.py",
 		"/home/cyk/Downloads/vue-now-ui-kit-master/src/starterRouter.js",
