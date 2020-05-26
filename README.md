@@ -3,7 +3,12 @@
 Art Club website at IIIT-H <br/> 
 virtual env can be activated by <br/>
 ```console
-foo@bar:~$ source bin/activate
+foo@bar:~/art-club-website$ source bin/activate
+```
+or you can simply install by running
+
+```console
+foo@bar:~/art-club-website$ make
 ```
 I have kept all the project files in ./src directory <br/>
 project name: webpage <br/>
