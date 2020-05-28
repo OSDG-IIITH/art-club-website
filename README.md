@@ -1,4 +1,3 @@
-=======
 # Art Society 
 Art society was started in the summer of 2017 and hosted its first event in the monsoon 2017.
 
