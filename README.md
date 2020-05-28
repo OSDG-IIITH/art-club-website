@@ -35,5 +35,3 @@ git pull upstream <branch-name>
 
 ## Instructions to run
 - TODO
-
->>>>>>> 0ad06d8271230f8d6773a5adcec9e0168a5510bd
