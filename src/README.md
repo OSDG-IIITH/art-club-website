@@ -18,7 +18,7 @@ this installs requirements and takes you to virtual env
 ```console
 foo@bar:~/art-club-website/src$ python3 ./mange.py runserver
 ```
-gets the server running<br>
+gets the server running on localhost ie.  http://127.0.0.1:8000/<br>
 <br>
 #### Advanced:
 For only activating virtual env:
@@ -31,4 +31,14 @@ for only installing required packages:
 foo@bar:~/art-club-website/src$ make install
 ```
 for exiting virtual env:
-```deactivate```
+`deactivate`
+<br>
+for changing the server's port
+```console
+foo@bar:~/art-club-website/src$ python3 ./mange.py runserver <port number>
+```
+If you want to change the server’s IP, pass it along with the port
+<br> (make sure to add it in ALLOWED_HOSTS in /art-club-website/src/webpage/settings.py)
+```console
+foo@bar:~/art-club-website/src$ python3 ./mange.py runserver <ip addrs>:<port number>
+```
