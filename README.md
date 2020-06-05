@@ -35,3 +35,22 @@ git pull upstream <branch-name>
 
 ## Instructions to run
 - TODO
+
+### Testing 
+Make sure you're in the correct directory:
+```bash
+cd src
+```
+
+Running Tests:
+```bash
+coverage run --source='.' manage.py test
+```
+and generate the report:
+```bash
+coverage html
+```
+You'll see exactly what to test. If you prefer seeing the report on the command line run:
+```bash
+coverage report
+```
