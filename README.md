@@ -34,7 +34,22 @@ git pull upstream <branch-name>
 - TODO
 
 ## Instructions to run
-- TODO
+### Backend - Django
+#### Migrations 
+Every time there is a change in the models, they need to be reflected to the database by running migrations.
+```bash
+python manage.py makemigrations backend
+python manage.py migrate
+```
+#### Enabling/Disabling browseable API
+Uncomment/Comment (respectively) the following lines in `django_react/settings.py`
+```python
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+    )
+}
+```
 
 ### Testing 
 Make sure you're in the correct directory:
