@@ -34,6 +34,21 @@ git pull upstream <branch-name>
 - TODO
 
 ## Instructions to run
+### Activate virtual environment
+```bash
+cd src
+source venv/bin/activate
+```
+
+### Generate requirements file
+```
+pip3 freeze > requirements
+```
+### Activate server
+```bash
+python3 manage.py runserver
+```
+
 ### Backend - Django
 #### Migrations 
 Every time there is a change in the models, they need to be reflected to the database by running migrations.
