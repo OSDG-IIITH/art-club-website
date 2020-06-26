@@ -34,6 +34,9 @@ git pull upstream <branch-name>
 - TODO
 
 ## Instructions to run
+- TODO
+
+## Instructions to run
 ### Activate virtual environment
 ```bash
 cd src
