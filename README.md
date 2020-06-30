@@ -35,3 +35,60 @@ git pull upstream <branch-name>
 
 ## Instructions to run
 - TODO
+
+## Instructions to run
+### Activate virtual environment
+```bash
+cd src
+source venv/bin/activate
+```
+
+### Generate requirements file
+```
+pip3 freeze > requirements
+```
+### Activate server
+```bash
+python3 manage.py runserver
+```
+### Frontend - React
+For changes in react files to be reflected, do the following :
+```
+cd frontend
+npm run dev
+```
+### Backend - Django
+#### Migrations 
+Every time there is a change in the models, they need to be reflected to the database by running migrations.
+```bash
+python manage.py makemigrations backend
+python manage.py migrate
+```
+#### Enabling/Disabling browseable API
+Uncomment/Comment (respectively) the following lines in `django_react/settings.py`
+```python
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+    )
+}
+```
+
+### Testing 
+Make sure you're in the correct directory:
+```bash
+cd src
+```
+
+Running Tests:
+```bash
+coverage run --source='.' manage.py test
+```
+and generate the report:
+```bash
+coverage html
+```
+You'll see exactly what to test. If you prefer seeing the report on the command line run:
+```bash
+coverage report
+```
