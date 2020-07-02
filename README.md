@@ -51,7 +51,12 @@ pip3 freeze > requirements
 ```bash
 python3 manage.py runserver
 ```
-
+### Frontend - React
+For changes in react files to be reflected, do the following :
+```
+cd frontend
+npm run dev
+```
 ### Backend - Django
 #### Migrations 
 Every time there is a change in the models, they need to be reflected to the database by running migrations.
